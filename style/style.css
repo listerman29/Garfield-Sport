@@ -31,7 +31,7 @@ main {
     font-family: IMPACT;
 }
 
-.garfield {
+#garfield {
     max-width: 100%;
     height: 140%;
 }
