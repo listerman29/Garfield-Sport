@@ -75,6 +75,7 @@ body {
     align-items: center;
     background-color: orange;
     border-radius: 0px 10px 10px 0px ;
+    margin-top: 50px;
     
     
 }
@@ -95,4 +96,23 @@ body {
     padding: 10px 20px;
     margin-top: 10px;
     text-align: center;
+    transition: all 0.3s ease;
+}
+.pagemenuitem:hover{
+    padding: 15px 25px;
+    color: orange;
+    background-color: #333;
+    transform: scale(1.4); 
+}
+.maininfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.maininrow {
+    width: calc(100%-20px);
+    display: flex;
+    flex-direction: row;
+
 }
