@@ -82,6 +82,15 @@ body {
 .maininfo{
     width: 70%;
     float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    box-sizing: border-box;
+    background-color: white;
+    border: 2px solid orange;
+    border-radius: 3%;
+    
     
 }
 .advert{
@@ -99,20 +108,33 @@ body {
     transition: all 0.3s ease;
 }
 .pagemenuitem:hover{
-    padding: 15px 25px;
+    padding: 15px 0px;
     color: orange;
     background-color: #333;
-    transform: scale(1.4); 
-}
-.maininfo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     
 }
 .maininrow {
-    width: calc(100%-20px);
+    width: calc(100%-100px);
     display: flex;
     flex-direction: row;
+    margin: 10px;
 
+}
+.maininfocol {
+    width: calc(100%/3);
+    font-family: trebuchet ms;
+    text-align: center;
+    border: 2px  solid orange;
+    transition: all 0.3s ease;
+}
+.maininfocol:hover {
+    
+    
+    
+    
+    
+}
+.productimg{
+    width: 100%;
+    
 }
