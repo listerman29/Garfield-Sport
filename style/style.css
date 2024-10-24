@@ -96,11 +96,143 @@
         background-color: orange;
         margin: 00px 0px;
     }
+    .findinputdiv{
+        display: none;
+    }
 
     
 
 }
 @media (min-width: 768px) and (max-width: 1023px){
+    body{
+        background-color: #333;
+    }
+    header{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 70px;
+        background-color: #333;
+        align-items: center;
+    }
+    .header1{
+        display: none;
+    }
+    .header2{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        font-size: 6vw;
+        font-family: IMPACT;
+        text-shadow: 5px 5px 1px rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+    }
+    #garfield {
+        max-width: 140%;
+        max-height: 140%;
+    }
+    .mainmenu{
+        width: 100%;
+        height: 70px;
+        background-color: orange;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        
+    }
+    .mainmenu1{
+        width: 100%;
+        margin: 25px 0px 25px 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    .mainmenu2{
+        display: none;
+    }
+    .mainmenuitem{
+        display: none;
+    }
+    .pagemenu {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr); /* Три колонки с равной шириной */
+        grid-template-rows: repeat(2, auto); /* Два ряда */
+        gap: 20px; /* Промежутки между диванами */
+        background-color: rgb(182, 121, 9);
+
+    }
+    .pagemenuitem{
+        font-family: trebuchet ms;
+        text-align: center;
+        flex-basis: calc((100%-20px)/9);
+        align-items: center;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mainmenu2img{
+        display: none;
+    }
+    
+    .page{
+        background-color: rgb(234, 230, 230);
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+    .maininfo{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        
+    }
+    .maininrow {
+        display: flex;
+        flex-wrap: wrap; /* Позволяет блокам оставаться в одном ряду, но переноситься при необходимости */
+        justify-content: space-between; /* Равномерное распределение блоков по ряду */
+        gap: 10px; /* Расстояние между блоками */
+    }
+
+    .maininfocol {
+        background-color: white;
+        border: 2px solid orange;
+        border-radius: 25px;
+        text-align: center;
+        font-family: "Trebuchet MS", sans-serif;
+        padding: 20px;
+        box-sizing: border-box;
+        flex: 1 1 calc(33.33% - 20px); /* Каждый блок занимает треть ширины родителя минус отступы */
+        min-width: 200px; /* Минимальная ширина блока */
+        margin: 5px;
+        box-sizing: border-box;
+    }
+    .productimg{
+        width: 100%;
+    }
+     
+    footer {
+        width: 100%;
+        height: 100px;
+        background-color: orange;
+        margin: 00px 0px;
+    }
+    .findinput2{
+        height: 50px;
+        width: 55vh;
+        border-radius: 5px;
+    }
+    
+    .menuimgsearch{
+        display: none;
+    }
 
 }
 @media (min-width: 1024px){
@@ -282,6 +414,8 @@
         background-color: orange;
         margin: 200px 0px;
     }
-    
+    .findinputdiv{
+        display: none;
+    }
 
 }
