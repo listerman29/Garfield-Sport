@@ -1,21 +1,19 @@
 
 @media (max-width: 767px){
+    body{
+        background-color: #333;
+    }
     header{
         width: 100%;
         display: flex;
         flex-direction: row;
-        justify-content: left;
+        justify-content: center;
         height: 50px;
         background-color: #333;
         align-items: center;
     }
     .header1{
-        max-width: 25%;
-        display: flex;
-        
-        
-        align-items: center;
-        height: 50%;
+        display: none;
 
     }
     .header2{
@@ -24,7 +22,7 @@
         justify-content: center;
         align-items: center;
         
-        font-size: 120%;
+        font-size: 6vw;
         font-family: IMPACT;
         text-shadow: 5px 5px 1px rgb(0, 0, 0);
         color: rgb(255, 255, 255);
@@ -33,6 +31,73 @@
         max-width: 140%;
         max-height: 140%;
     }
+    .mainmenu{
+        width: 100%;
+        height: 70px;
+        background-color: orange;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        
+    }
+    .mainmenu1{
+        width: 100%;
+        margin: 25px 0px 25px 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    .mainmenu2{
+        display: none;
+    }
+    .mainmenuitem{
+        display: none;
+    }
+    .pagemenu {
+        display: none;
+    }
+    .mainmenu2img{
+        display: none;
+    }
+    
+    .page{
+        background-color: rgb(234, 230, 230);
+    }
+    .maininfo{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        
+    }
+    .maininrow{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        border-radius: 25px;
+    }
+    .maininfocol{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: trebuchet ms;
+        text-align: center; 
+        gap: 20px;
+        border: 2px  solid orange;
+        border-radius: 25px;
+        background-color: white;
+    }
+    footer {
+        width: 100%;
+        height: 100px;
+        background-color: orange;
+        margin: 00px 0px;
+    }
+
+    
 
 }
 @media (min-width: 768px) and (max-width: 1023px){
@@ -207,5 +272,16 @@
     .find {
         float: r;
     }
+    .findinput {
+        width: 300px;
+        height: 40px;
+    }
+    footer {
+        width: 100%;
+        height: 100px;
+        background-color: orange;
+        margin: 200px 0px;
+    }
+    
 
 }
